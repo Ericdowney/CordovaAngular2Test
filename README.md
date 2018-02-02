@@ -15,7 +15,9 @@ cordova run [ios | android | browser]
 
 Before running the platform you must add the hooks/buildAngular2App.js script to your project and then add the following xml to your config.xml file within the cordova project.
 
+```
 <hook src="./hooks/buildAngular2App.js" type="before_prepare" />
+```
 
 ---
 
