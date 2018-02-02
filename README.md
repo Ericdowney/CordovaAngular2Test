@@ -1,5 +1,20 @@
 # TestCordovaApp
 
+### Creating your own cordova/angular2 project
+
+Like any other Angular 2 application, start with @angular/cli.  This will generate the basic Angular 2 application with all dependencies.
+
+```
+ng new testCordovaApp
+cd testCordovaApp
+cordova create cordova <bundle-identifer> "<App-Name>"
+cd cordova
+cordova platform add <platform>
+cordova run [ios | android | browser]
+```
+
+---
+
 To run a mobile app platform or in the browser through cordova, ```cd``` into the cordova directory and run
 
 ```
