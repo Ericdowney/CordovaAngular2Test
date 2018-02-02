@@ -1,5 +1,14 @@
 # TestCordovaApp
 
+To run a mobile app platform or in the browser through cordova, ```cd``` into the cordova directory and run
+
+```
+cordova run [ios | android | browser]
+```
+
+This will automatically build the angular cli project and move the files into the ```www``` directory.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
 ## Development server
